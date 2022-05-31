@@ -1,0 +1,113 @@
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/kaspersky.css);
+
+.position{
+    display: flex;
+    flex-direction: column;
+}
+.Vector{
+    position: fixed;
+    background: #23D1AE;
+    border-color: transparent;
+ /*   border: 4px solid #FFFFFF;*/
+    height: 81px;
+    width: 72px;
+    left: 32px;
+    top: 56px;
+    border-radius: 0;
+}
+.Vector_green{
+    position: fixed;
+    height: 3.9193553924560547px;
+    width: 12.857142448425293px;
+    left: 71.85699462890625px;
+    top: 110.879638671875px;
+    border: 2px solid #4D4D4F;
+    border-bottom: 2px solid  #6D6E71;
+    background: #A5CF4C;
+}
+.Vector_grey{
+    position: fixed;
+    height: 27.439908981323242px;
+    width: 36px;
+    left: 50px;
+    top: 76.90679931640625px;
+    border-radius: 0;
+    bottom: 31.35%;
+    background: #6D6E71;
+/*    z-index: 1;*/
+}
+
+.Vector_grey_small{
+    position: fixed;
+    height: 1.3064519166946411px;
+    width: 18px;
+    left: 50px;
+    top: 93.8931884765625px;
+    border-radius: 0;
+    background: #4D4D4F;
+}
+
+.Vector_white_small{
+    position: fixed;
+    height: 10.544768333435059px;
+    width: 7.714284420013428px;
+    left: 55.14276123046875px;
+    top: 100.38714599609375px;
+    border-radius: 0;
+    background: #FFFFFF;
+    bottom: 27.02%;
+    z-index:1000;}
+
+.Vector_nout{
+    height: 6.5322585105896px;
+    width: 15.428572654724121px;
+    left: 70.5716552734375px;
+    top: 109.5731201171875px;
+    border-radius: 0;
+    border-bottom: #6D6E71;
+    background: #44ADE2;
+    z-index: 10;
+}
+.Vector_oval{
+    position: fixed;
+    height: 5.2258076667785645px;
+    width: 12.857142448425293px;
+    left: 61.571533203125px;
+    top: 101.7330322265625px;
+    border-radius: 80px/50px;
+    background: #4D4D4F;
+    z-index: 0;
+}
+.Vector_red{
+    position: fixed;
+    height: 18.293277740478516px;
+    width: 15.428571701049805px;
+    left: 51.28582763671875px;
+    top: 96.50665283203125px;
+    border-radius: 0;
+    background: #F04E45;
+    border: 2px solid #6D6E71;
+    border-bottom: 3px solid #6D6E71;;
+    border-top: 3px solid #4D4D4F;
+    z-index: 10;
+}
+.Vector_white{
+    position: fixed;
+    height: 15.810612678527832px;
+    width: 11.571431159973145px;
+    left: 62.21417236328125px;
+    top: 82.72113037109375px;
+    border-radius: 0;
+    background: #FFFFFF;
+    z-index: 2;
+}
+.Vector_blue{
+    height: 22.2132625579834px;
+    width: 30.85713768005371px;
+    left: 52.571533203125px;
+    top: 79.519775390625px;
+    border-radius: 0px;
+    position: fixed;
+    background: #44ADE2;
+}

@@ -1,0 +1,667 @@
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/kaspersky.css);
+.text_2{
+    font-family: 'Kaspersky Sans',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+
+    /* Primary / White */
+
+    color: #FFFFFF;
+
+}
+.about{
+    background-color: #1D1D1B;
+}
+.price{
+    background-color: #1D1D1B;
+}
+/*фото мальчика */
+.intersect{
+    width: 100%;
+    max-width: 894px;
+    right: 0;
+    left: 0;
+    display: flex;
+    height: auto;
+}
+
+
+.logo_title_stars_price{
+display: flex;
+    height: 112px;
+}
+.internet{
+    height: 112px;
+}
+
+.text_header{
+   /* padding-left: 24px;*/
+    padding-left: 6.7vw;
+   /* padding-right: 24px;*/
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 312px;
+    height: 80px;
+    padding-top: 50px;
+    /* Display - Small */
+    text-align: left;
+    font-family: 'Kaspersky Sans', 'Arial','Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.text_header_second{
+    padding-left: 6.7vw;
+    width: 312px;
+    height: 81px;
+    margin-top: 9px;
+    margin-bottom: 26px;
+    font-family: 'Kaspersky Sans', 'Arial','Inter', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.line{
+    width: 84.66px;
+    margin-left: 6.7vw;
+    margin-top: 34px;
+    height: 0;
+    opacity: 0.8;
+    text-align: left;
+    /* Primary / White */
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+}
+.internet_background{
+    background-color: #1D1D1B;
+    padding-bottom: 34px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.list{
+    padding-left: 11vw;
+    padding-bottom: 59px;
+    text-align: left;
+    margin-bottom: 0;
+    font-family: 'Kaspersky Sans', 'Arial','Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.gaming{
+    top: 68px;
+    background-image: image('../../util/gradient.svg');
+}
+/*.kolonka_cower{
+    background-color: #23d1ae;
+    width: 318px;
+    height: 504px;
+}*/
+li{
+    padding-top: 6px;
+    font-size: 16px;
+    padding-right: 24px;
+    font-family: 'Kaspersky Sans',sans-serif;
+    font-weight: 300;
+    line-height: 20px;
+   list-style-type: none;}
+
+ul{
+    padding-left: 16px;
+}
+
+.save_internet{
+    display: flex;
+    flex-direction: column;
+}
+.image_compatible{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.compatible_with{
+    padding-left: 34px;
+    padding-bottom: 17px;
+    font-size: 12px;
+    line-height: 16px;
+    padding-top: 27px;}
+
+.bold_title{
+  font-weight: bold;
+}
+.correct_position{
+    display: flex;
+    align-items: baseline;
+}
+.galka{
+    width: 16.13px;
+    height: 12.19px;
+    padding-right: 15px;
+}
+.discaunt{
+    margin-left: 16px;
+    background: #8233FF;
+    width: 179px;
+    height: 36px;
+}
+.save{
+    margin-top: 0px;
+    width: 166px;
+    height: 17px;
+    font-family: 'Kaspersky Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    padding:7px 9px 6px 10px ;
+    text-align: center;
+    color: #FFFFFF;
+}
+/*-------------------------------------------------------------------------------*/
+.internet_close_form
+{ min-width: 320px;
+
+    margin-right: 17px;
+    background: linear-gradient(317.5deg,
+    rgba(0, 168, 142, 0.4) 66.18%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+}
+@media screen and (min-width: 360px) and (max-width: 620px) {
+    .internet_close_form {
+        width: 328px;
+    }
+}
+
+.buy_small{
+    width: 54px;
+    height: 48px;
+    left: 12px;
+    right: 12px;
+    top: 8px;
+    bottom: 8px;
+    font-family:'Kaspersky Sans', 'Arial', 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.buy_now{
+    border: none;
+    margin-top: 20px;
+    left: 12px;
+    right: 12px;
+    top: 8px;
+    bottom: 8px;
+    justify-content: center;
+    font-family: 'Kaspersky Sans', 'Arial', 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.new_price{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 19px;
+    width: 120px;
+    height: 70px;
+    left: 163px;
+    font-family: 'Kaspersky Sans', 'Arial', 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.03em;
+    color: #1D1D1B;
+}
+.old_price{
+    width: 60px;
+    height: 32px;
+    left: 83px;
+    top: 429px;
+    font-family: 'Kaspersky Sans', 'Arial', 'Inter', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1B;
+}
+.reviews{
+    margin-top: 0;
+    height: 18px;
+    left: 213px;
+    font-family: 'Kaspersky Sans', 'Arial', 'Inter', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1B;
+}
+.internet_title{
+    margin-bottom: 10px;
+    margin-top: 21px;
+    height: 45px;
+    left: 105px;
+    top: 305px;
+    font-family: 'Kaspersky Sans', 'Arial', 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    color: #1D1D1B;
+}
+button{
+    border: none;
+    background: #FF3748;
+    border-radius: 3px;
+    width: 296px;
+    height: 48px;
+}
+
+.internet{
+    margin: 0 auto;
+    height: 358px;
+    background: linear-gradient(317.5deg, rgba(0, 168, 142, 0.4) 66.18%, rgba(126, 255, 51, 0.4) 100%), #23D1AE;
+}
+.reviews_stars{
+    display: flex;
+    padding-left: 91.51px;
+}
+.logo{
+    padding-top: 30px;
+    width: 50px;
+    padding-left: 16px;
+    padding-right: 23px;
+}
+.logo_title{
+    margin: 0;
+    padding-top: 0;
+    display: flex;
+
+}
+.line_price{
+
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input_field{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 16px;
+}
+.price_two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gaming{
+
+    -webkit-background-size: cover;
+    position: relative;
+ /*   overflow: hidden;*/
+    width: 360px;
+    height: 375.5px;
+    left: 0;
+    background: linear-gradient(230.66deg, #FFFFFF 32.22%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(16.53deg, rgba(153, 132, 245, 0.2) 0%, rgba(153, 132, 245, 0) 80.45%);
+    /*transform: matrix(1, 0, 0, -1, 0, 0);*/
+}
+.gaming_title{
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 312px;
+    height: 40px;
+    left: 24px;
+    font-family: 'Kaspersky Sans',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #444444;
+    padding-top: 51px;
+  /*  padding-left: 24px;*/
+    padding-right: 24px;
+    padding-bottom: 18px;
+}
+.gaming_subtitle{
+    width: 312px;
+    height: 54px;
+    left: 24px;
+    top: 1560px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-family: 'Kaspersky Sans',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+    color: #444444;
+}
+
+.game{
+.width: 278px;
+height: 24px;
+left: 58px;
+top: 1636px;
+font-family: 'Kaspersky Sans',sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+/* Grey 5 */
+color: #444444;}
+/*------------------------------------------*/
+
+svg{
+    background: white;
+}
+.shape{
+
+    fill: #00A88E
+;}
+/*---------------------------------------------------------------*/
+.malware{
+   /* max-width: 360px;*/
+    background: linear-gradient(98.43deg, rgba(29, 29, 27, 0) -45.31%, #1D1D1B 57.89%), linear-gradient(180deg, rgba(29, 29, 27, 0) -3.51%, #1D1D1B 92.79%), linear-gradient(158.18deg, #00A88E 0%, rgba(1, 50, 35, 0) 100%);
+ /*   transform: matrix(1, 0, 0, -1, 0, 0);*/
+    height: 569px;
+    left: 0;
+}
+.malware_title{
+    padding-left: 24px;
+    padding-top: 75px;
+/*    border-right-width: 24px;*/
+    margin-top: 0;
+    margin-bottom: 19px;
+    padding-right: 24px;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: right;
+    font-family: 'Kaspersky Sans', 'Arial', 'Inter', serif;
+}
+.malware_subtitle{
+    padding-right: 24px;
+    padding-left: 24px;
+  /*  width: 312px;*/
+    height: 81px;
+    left: 24px;
+   /* top: 2029px;*/
+    font-family: 'Kaspersky Sans', 'Arial', 'Inter', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+    /* or 112% */
+    text-align: right;
+    /* Primary / White */
+    color: #FFFFFF;
+}
+.malware_detection{
+    padding-right: 31px;
+    width: 129px;
+    height: 96px;
+    left: 59px;
+    font-family: 'Kaspersky Sans', 'Arial', 'Inter', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: right;
+    /* Secondary/Kaspersky Vibrant Green */
+    color: #23D1AE;
+    padding-left: 59px;
+    padding-bottom: 87px;
+    padding-top: 91px;
+}
+.av{
+    width: 40px;
+    height: 40px;
+    padding-bottom: 7px;
+}
+.connect_skobka{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.foto{
+    display: flex;
+align-items: center;}
+
+.data_dec_2019{
+    padding-bottom: 23px;
+}
+.av_test{
+    padding-bottom: 7px;
+}
+.skobka_second{
+}
+.position_av{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+/*---------------------------------------------------------------*/
+.empty_black{
+    height: 616px;
+    background: #1D1D1B;}
+/*---------------------------------------------------------------*/
+.internet_title{
+}
+.button_text{
+    display: flex;
+    align-items: baseline;
+}
+.title_price{
+    display: flex;
+    flex-direction:column;
+    padding-left: 12px;
+}
+/*11*/
+.logo_title_stars_price {
+    display: flex;
+    height: 112px;
+    flex-direction: column;}
+
+
+.internet_price{
+    left: 27px;
+    right: 62px;
+    top: 601px;
+    bottom: 9px;
+    font-family: 'Kaspersky Sans', 'Arial', 'Inter', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #1D1D1B;
+}
+.bold_price{
+    font-weight: 700;
+}
+
+/*cyber*/
+.cyber_title{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-items: center;
+    top:92px;
+    bottom: 72px;
+    /*    background-color:  #E5E5E5;*/
+    background-color: #1d1d1b;
+    /* Display - Medium */
+    font-family: 'Kaspersky Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 52px;
+    /* identical to box height, or 108% */
+    text-align: center;
+    letter-spacing: -0.03em;
+    /* Primary / White */
+    color: #FFFFFF;}
+
+
+.section_rotate{
+ display: flex;
+}
+@media screen and (min-width: 320px) and (max-width: 999px) {
+    .empty_black{
+        height: 616px;
+        background: #1D1D1B;}
+
+    #cyber{
+        display: none;
+    }
+.cyber{
+    display: none;
+}
+    .section_rotate {
+        display: flex;
+        flex-direction: column;}
+}
+.gaming{
+    top: 0;
+    margin-bottom: 0;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.kolonka_cower{
+    display: none;
+}
+.malware{
+}
+.cyber_title{
+    display: none;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .empty_black {
+        height: 1464px;
+        background: #1D1D1B;
+    }
+
+    .malware_title {
+        padding-top: 31px;}
+    .cyber{
+        display: flex;
+        width: 200px;
+    }
+    .kolonka_cower{
+        display: flex;
+    }
+    .gaming{
+        display: flex;
+        align-items: center;
+        height: 436px;
+        width: 60vw;
+      /*  width: 720px;*/
+       /* padding-left: 166px;*/
+    }
+    .malware{
+        height: 436px;
+    width: 100%
+    }
+    .content{
+        width: 22%;
+    }
+    .malware{
+        width: 60vw;
+    }
+    }
+.content{
+    z-index:1 ;
+    width: 22%;
+}
+.malware_detection{
+    padding-top: 52px;
+    padding-bottom: 59px;
+}
+.malware_subtitle{
+    margin-top: 0;
+    margin-bottom: 0}
+.malware{
+   /* width: 60vw;*/
+    z-index: -23;
+    background: linear-gradient(100.56deg, rgba(29, 29, 27, 0) 0%, #1D1D1B 59.08%), linear-gradient(180deg, rgba(29, 29, 27, 0) 0%, #1D1D1B 100%), linear-gradient(127.55deg, #00A88E 48.95%, rgba(1, 50, 35, 0) 98.47%);
+  /*  opacity: 0.6;
+    transform: matrix(-1, 0, 0, 1, 0, 0);*/
+}
+.malware_title{
+top: 51px;
+}
+
+/*параллелограмм*/
+.parallelogram {
+    top: -68px;
+    height: 504px;
+    position: relative;
+    color: #23d1ae;
+    pointer-events: none;}
+
+.parallelogram:before {
+     position: absolute;
+     content: "";
+     width: 100%;
+     height: 100%;
+     transform-origin: 0 100%;
+     transform: skew(-9deg);
+     background: #23d1ae;
+     z-index: -10;
+ }
+.content {
+    margin: 0  -50%;
+    pointer-events: auto;
+}
+

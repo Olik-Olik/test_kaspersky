@@ -1,0 +1,19 @@
+<svg width="360" height="569" viewBox="0 0 360 569" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 569H360V6.10352e-05L0 41.0453V569Z" fill="url(#paint0_linear_0_380)"/>
+<path d="M0 569H360V6.10352e-05L0 41.0453V569Z" fill="url(#paint1_linear_0_380)"/>
+<path d="M0 569H360V6.10352e-05L0 41.0453V569Z" fill="url(#paint2_linear_0_380)"/>
+<defs>
+<linearGradient id="paint0_linear_0_380" x1="0" y1="569" x2="360" y2="5.71012e-06" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00A88E"/>
+<stop offset="1" stop-color="#013223" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear_0_380" x1="180" y1="589" x2="180" y2="41.0456" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1D1D1B" stop-opacity="0"/>
+<stop offset="1" stop-color="#1D1D1B"/>
+</linearGradient>
+<linearGradient id="paint2_linear_0_380" x1="-161" y1="849.5" x2="261.855" y2="809.857" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1D1D1B" stop-opacity="0"/>
+<stop offset="1" stop-color="#1D1D1B"/>
+</linearGradient>
+</defs>
+</svg>

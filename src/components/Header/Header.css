@@ -1,0 +1,66 @@
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/kaspersky.css);
+.d {
+    display: flex;
+    background-color: #1D1D1B;
+    position: relative;
+    /*  opacity: 0.4;*/
+    z-index: 5
+}
+
+.header_title {
+    color: white;
+    display: flex;
+    position: relative;
+    z-index: 10000000;
+    padding-right: 25vw;
+    padding-left: 23px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.header_gbp {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    height: 38px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.header {
+    left: 0px;
+    max-width: 100%;
+    height: 64px;
+    position: absolute;
+  /*  opacity: 0.4;*/
+    right: 0;
+    display: flex;
+    background: rgb(29 29 27 / 15%);
+    /*max-width: calc(100% - 22px);*/
+    z-index: 2;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .header_title {
+        padding-right: 20vw;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    .header_title {
+        padding-right: 35vw;
+        /*padding-left: 10vw;*/
+    }
+
+}
+
+@media screen and (min-width: 641px) and (max-width: 1280px) {
+    .header_title {
+        padding-left: 11vw;
+    }
+}

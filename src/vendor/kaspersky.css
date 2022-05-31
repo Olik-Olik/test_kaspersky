@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:local('Kaspersky Sans');
+    src: url('../vendor/mobile/KasperskySans-Light.svg') format("svg"),
+    url('../vendor/mobile/KasperskySans-Light.svg') format("svg");
+}
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Regular.svg') format("svg"),
+    url('../vendor/mobile/KasperskySans-Regular.svg') format("svg");
+}
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Bold.svg') format("svg"),
+    url('../vendor/mobile/KasperskySans-Bold.svg') format("svg");
+}
+/* eot*/
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Light.eot') format("eot"),
+    url('../vendor/mobile/KasperskySans-Light.eot') format("eot");
+}
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Regular.eot') format('eot'),
+    url('../vendor/mobile/KasperskySans-Regular.eot') format('eot');
+}
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Bold.eot') format('eot'),
+    url('../vendor/mobile/KasperskySans-Bold.eot') format('eot');
+}
+/*woff*/
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Light.woff') format('woff'),
+    url('../vendor/mobile/KasperskySans-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Regular.woff') format('woff'),
+    url('../vendor/mobile/KasperskySans-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Bold.woff') format('woff'),
+    url('../vendor/mobile/KasperskySans-Bold.woff') format('woff');
+}
+/*ttf*/
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Light.ttf') format('ttf'),
+    url('../vendor/mobile/KasperskySans-Light.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Regular.ttf') format('ttf'),
+    url('../vendor/mobile/KasperskySans-Regular.ttf') format('ttf');
+}
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Bold.ttf') format('ttf'),
+    url('../vendor/mobile/KasperskySans-Bold.ttf') format('ttf');
+}
+/*woff2*/
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Light.woff2') format('woff2'),
+    url('../vendor/mobile/KasperskySans-Light.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Regular.woff2') format('woff2'),
+    url('../vendor/mobile/KasperskySans-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../vendor/mobile/KasperskySans-Bold.woff2') format('woff2'),
+    url('../vendor/mobile/KasperskySans-Bold.woff2') format('woff2');
+}

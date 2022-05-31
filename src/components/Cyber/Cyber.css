@@ -1,0 +1,22 @@
+/*.cyber_title{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    top:92px;
+    bottom: 72px;
+!*    background-color:  #E5E5E5;*!
+    background-color: #1d1d1b;
+!* Display - Medium *!
+font-family: 'Kaspersky Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 52px;
+!* identical to box height, or 108% *!
+text-align: center;
+letter-spacing: -0.03em;
+
+!* Primary / White *!
+color: #FFFFFF;}*/

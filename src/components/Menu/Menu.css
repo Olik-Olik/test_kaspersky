@@ -1,0 +1,247 @@
+@import url(../../vendor/normalize.css);
+@import url(../../vendor/kaspersky.css);
+
+#nav ul li a {
+    font-family: 'KASPERSKY SANS', Arial, sans-serif;
+    text-decoration: none;
+    color: #1D1D1B;
+    font-weight: 400;
+    size: 14px;
+    line-height: 20px;
+    display: block;
+    background: #23D1AE;
+    height: 30px;
+    width: 91%;
+}
+
+.li {
+    padding-right: 0;
+    margin-bottom: 0;
+}
+
+.mainItem {
+    border: 1px solid #060A13;
+}
+
+#nav li a {
+    display: block;
+    background: #23D1AE;
+    color: #060A13;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    background: #7FE3CE;
+}
+
+#nav li .buynow {
+    z-index: 30;
+ /*   width: 20%;*/
+    background: #23D1AE;;
+    display: none;
+    position: absolute;
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid black;
+}
+
+#nav li:hover .buynow {
+    display: block;
+}
+
+
+.menu_drop {
+    padding-right: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.buy_now {
+    width: 88%;
+    margin-left: 16px;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #FF3748;
+    border-radius: 3px;
+}
+
+.buy_now:hover, .buy_now:focus {
+    background-color: #FF3748;
+}
+
+/*_____________________Под разрешения________________________________________*/
+
+
+/*320*/
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .intersect {
+    }
+    #nav li .buynow {
+     /*   width: 87%;*/
+    }
+
+    .internet {
+        height: 358px;
+    }
+
+    .list {
+        padding-left: 7vw;
+    }
+
+    .buy_now {
+        margin-left: 16px;
+      /*  width: 87%;*/
+    }
+
+    .internet_background {
+    }
+}
+
+/*640*/
+
+@media screen and (min-width: 481px) and (max-width: 640px) {
+    .intersect {
+    }
+    #nav li .buynow {
+        z-index: 30;
+       /* width: 87%;*/}
+
+    .buy_now {
+        margin-left: 20px;
+    }
+
+    .compatible_with {
+        padding-top: 60px;
+        padding-bottom: 12px;
+    }
+
+    .internet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*1280*/
+
+@media screen and (min-width: 741px) and (max-width: 830px) {
+    #nav ul li a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 741px) /*and (max-width: 1440px) */{
+    .text_header {
+        margin-top: 50px;
+    }
+
+    .buy_now {
+        width: 118px;
+    }
+
+    .logo_title_stars_price {
+        display: flex;
+        height: 112px;
+        flex-direction: row;
+    }
+
+    .intersect {
+        padding-right: 0;
+        padding-left: 1vw;
+    }
+
+    .mobile_desktop {
+        flex-direction: row-reverse;
+        display: flex;
+    }
+
+    .mobile_desktop_text {
+        width: 100vw;
+        background:
+                linear-gradient(100.56deg, rgba(29, 29, 27, 0) 0%, #1D1D1B 59.08%), linear-gradient(180deg, rgba(29, 29, 27, 0) 0%, #2bd518 100%), linear-gradient(103.91deg, #23D1AE 0%, rgba(1, 50, 35, 0) 59.93%);
+        opacity: 0.8;
+    }
+
+    .buy_now {
+        margin-left: 0;
+
+    }
+
+    .line_price {
+        display: none;
+        transform: rotate(90deg);
+        height: 0;
+        width: 88px;
+        margin-left: 0;
+    }
+
+    .reviews_stars {
+        align-items: baseline;
+    }
+
+    .internet {
+        height: 112px;
+    }
+
+    #nav ul li a {
+        max-width: 191px;
+        font-size: 16px;
+    }
+
+    .logo_title_stars_review {
+
+    }
+
+    .internet {
+        height: 112px;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+    }
+
+    .list {
+        width: 270px;
+    }
+
+    .logo_title_stars_price {
+        display: flex;
+        height: 112px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+}
+
+/*1440*/
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    .list {
+        width: 270px;
+    }
+
+    .logo_title_stars_price {
+        display: flex;
+        height: 112px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: stretch
+    }
+
+    #nav ul li a {
+       /* max-width: 191px;*/
+    }
+
+    .menu_drop {
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+}
+#body{
+    background: black;
+}
