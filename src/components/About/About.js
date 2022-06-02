@@ -118,7 +118,7 @@ export default function About() {
                                 </div>
                             </div>
 
-                            {/*_______________________*/}
+
                         </div>
                     </section>
                 </section>
@@ -146,11 +146,13 @@ export default function About() {
                 </div>
             </section>
 
-            <section className="empty_black">
-                <div className="black"> </div>
-            </section>
+
 
             </div>
+
+             <section className="empty_black">
+                          {/*   <div className="black"> </div> */}
+                        </section>
         </>
     )
 }
